@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "96098e473b028cdb2529580554a1ae3e",
+    "content-hash": "925f120f87a6da47571ea7f3d69b7ec7",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -733,16 +733,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.4",
+            "version": "v2.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e"
+                "reference": "b5ea1ef3d8ff10c307ba8c5945c2f134e503278f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e",
-                "reference": "a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/b5ea1ef3d8ff10c307ba8c5945c2f134e503278f",
+                "reference": "b5ea1ef3d8ff10c307ba8c5945c2f134e503278f",
                 "shasum": ""
             },
             "require": {
@@ -777,7 +777,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-11-07T23:38:38+00:00"
+            "time": "2017-02-27T17:11:23+00:00"
         },
         {
             "name": "psr/log",
@@ -1763,6 +1763,92 @@
             "time": "2017-02-16T22:46:52+00:00"
         },
         {
+            "name": "themattharris/tmhoauth",
+            "version": "0.8.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/themattharris/tmhOAuth.git",
+                "reference": "455552d6c57549632644b6c9ac9204766be2b5ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/themattharris/tmhOAuth/zipball/455552d6c57549632644b6c9ac9204766be2b5ee",
+                "reference": "455552d6c57549632644b6c9ac9204766be2b5ee",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "tmhOAuth": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "themattharris",
+                    "email": "matt@themattharris.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An OAuth library written in PHP by @themattharris",
+            "keywords": [
+                "oauth",
+                "twitter"
+            ],
+            "time": "2014-08-06T22:29:35+00:00"
+        },
+        {
+            "name": "thujohn/twitter",
+            "version": "2.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thujohn/twitter.git",
+                "reference": "203d903856212835206675ae9c0504d74b681886"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thujohn/twitter/zipball/203d903856212835206675ae9c0504d74b681886",
+                "reference": "203d903856212835206675ae9c0504d74b681886",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "4.*|5.*",
+                "php": ">=5.5.0",
+                "themattharris/tmhoauth": "0.8.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Thujohn\\Twitter": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "thujohn",
+                    "email": "jonathan.thuau@gmail.com"
+                }
+            ],
+            "description": "Twitter API for Laravel",
+            "keywords": [
+                "laravel",
+                "laravel4",
+                "laravel5",
+                "twitter"
+            ],
+            "time": "2017-01-31T23:37:52+00:00"
+        },
+        {
             "name": "tijsverkoyen/css-to-inline-styles",
             "version": "2.2.0",
             "source": {
@@ -2526,16 +2612,16 @@
         },
         {
             "name": "phpunit/php-token-stream",
-            "version": "1.4.10",
+            "version": "1.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "284fb0679dd25fb5ffb56dad92c72860c0a22f1b"
+                "reference": "e03f8f67534427a787e21a385a67ec3ca6978ea7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/284fb0679dd25fb5ffb56dad92c72860c0a22f1b",
-                "reference": "284fb0679dd25fb5ffb56dad92c72860c0a22f1b",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/e03f8f67534427a787e21a385a67ec3ca6978ea7",
+                "reference": "e03f8f67534427a787e21a385a67ec3ca6978ea7",
                 "shasum": ""
             },
             "require": {
@@ -2571,7 +2657,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2017-02-23T06:14:45+00:00"
+            "time": "2017-02-27T10:12:30+00:00"
         },
         {
             "name": "phpunit/phpunit",
